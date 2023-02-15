@@ -6,6 +6,16 @@ public class Main {
                                 new Python()};
         for (Backend backend:backends) {
             System.out.println(backend.toString());
+            System.out.println(backend.getClass());
+            boolean isIt = backend instanceof Backend;
+            System.out.println(isIt);
+
         }
+
+
+
+
+
+
     }
 }
